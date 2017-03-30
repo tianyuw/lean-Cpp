@@ -1,7 +1,8 @@
 # Lambda Expression C++11
 
 lambda expression is a shorhand syntax for creating a function object.  
-__<font color = 'red'> a function object in C++ is actually a struct or class with the parenthesis operator overloaded.</font>__
+__<font color = 'red'> a function object in C++ is actually a  
+struct or class with the parenthesis operator overloaded.</font>__
 
 ```
 auto isOdd = [](int x){return x % 2}
